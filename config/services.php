@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'google' => [
+        'credentials_path' => env('GOOGLE_APPLICATION_CREDENTIALS', base_path('google-credentials.json')),
+        'api_key' => env('GOOGLE_API_KEY'),
+    ],
+
 ];
